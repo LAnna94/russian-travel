@@ -1,6 +1,11 @@
 .place__card {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-rows: fit-content(152px) 460px;
+  grid-template-areas:
+      "title url"
+      "image text";
+  gap: 48px 40px;
   padding-bottom: 80px;
 }
 
