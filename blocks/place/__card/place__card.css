@@ -1,7 +1,7 @@
 .place__card {
   display: grid;
   grid-template-columns: 460px 484px;
-  grid-template-rows: fit-content(152px) 460px;
+  grid-template-rows: fit-content(152px) 1fr;
   grid-template-areas:
       "title url"
       "image text";
@@ -11,4 +11,11 @@
 
 .place__card:last-child {
   padding-bottom: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .place__card {
+    grid-template-columns: 440px 456px;
+    gap: 48px 32px;
+  }
 }
