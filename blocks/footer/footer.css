@@ -22,9 +22,9 @@
 @media screen and (max-width: 767px) {
   .footer {
     max-height: 310px;
-    max-width: 320px;
+    max-width: 186px;
     flex-direction: column;
     padding: 64px 0 24px 16px;
-    margin: 0 auto;
+    margin: 0;
   }
 }
