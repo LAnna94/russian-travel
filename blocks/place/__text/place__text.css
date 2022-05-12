@@ -1,0 +1,11 @@
+.place__text {
+  max-width: 484px;
+}
+
+
+@media screen and (max-width: 767px) {
+  .place__text {
+      max-width: 288px;
+      margin: 0 auto;
+  }
+}

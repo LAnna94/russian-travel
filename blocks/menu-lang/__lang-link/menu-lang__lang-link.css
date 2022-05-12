@@ -1,4 +1,4 @@
-.header__lang-link {
+.menu-lang__lang-link {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -8,13 +8,13 @@
   padding-right: 18px;
 }
 
-.header__lang-link:last-of-type {
+.menu-lang__lang-link:last-of-type {
   text-decoration: none;
   padding-right: 0;
 }
 
 @media screen and (max-width: 767px) {
-  .header__lang-link {
+  .menu-lang__lang-link {
     font-size: 18px;
     }
   }

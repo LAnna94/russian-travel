@@ -1,0 +1,5 @@
+.menu-lang {
+  display: flex;
+  align-self: end;
+  padding-bottom: 5px;
+}
